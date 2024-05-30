@@ -4,7 +4,8 @@ export default class Car {
     this._motor = motor;
     this._color = color;
   }
-  static get[Symbol.species]() {
+
+  static get [Symbol.species]() {
     return this.prototype.constructor;
   }
 
