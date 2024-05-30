@@ -23,6 +23,6 @@ export default class {
   }
 
   toString() {
-    return `[Object ${this._code}]`;
+    return `[object ${this._code}]`;
   }
 }
